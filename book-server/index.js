@@ -7,7 +7,7 @@ const cors = require('cors')
 app.use(express.json())
 app.use(
   cors({
-    origin: '',
+    origin: 'https://mern-book-store-1028f.web.app',
     method: ['POST', 'GET', 'PATCH', 'PUT', 'DELETE'],
     credential: true,
   })
