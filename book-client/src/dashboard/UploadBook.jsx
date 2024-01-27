@@ -55,7 +55,7 @@ const UploadBook = () => {
 
     // send data to db
 
-    fetch('https://ksc-book-store-server.vercel.app/upload-book', {
+    fetch('https://ksc-book-store.vercel.app/upload-book', {
       method: 'POST',
       headers: {
         'Content-type': 'application/json',

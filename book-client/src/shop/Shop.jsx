@@ -3,9 +3,9 @@ import { Card } from 'flowbite-react'
 
 const Shop = () => {
   const [books, setBooks] = useState([])
-
+  // https://ksc-book-store.vercel.app/
   useEffect(() => {
-    fetch('https://ksc-book-store-server.vercel.app/all-books')
+    fetch('https://ksc-book-store.vercel.app/all-books')
       .then((res) => res.json())
       .then((data) => {
         setBooks(data)

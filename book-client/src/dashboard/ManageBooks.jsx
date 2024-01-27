@@ -8,7 +8,7 @@ const ManageBooks = () => {
   // https://ksc-book-store-server.vercel.app/
   // fetch("http://localhost:5000/all-books"
   useEffect(() => {
-    fetch('https://ksc-book-store-server.vercel.app/all-books', {})
+    fetch('https://ksc-book-store.vercel.app/all-books', {})
       .then((res) => res.json())
       .then((data) => {
         setAllBooks(data)
@@ -18,7 +18,7 @@ const ManageBooks = () => {
   // delete a book
 
   const handleDelete = (id) => {
-    fetch(`https://ksc-book-store-server.vercel.app/book/${id}`, {
+    fetch(`https://ksc-book-store.vercel.app/book/${id}`, {
       method: 'DELETE',
     })
       .then((res) => res.json())
