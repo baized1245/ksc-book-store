@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header, nav {
+    z-index: 10001 !important;
+}
