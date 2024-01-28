@@ -3,7 +3,10 @@ import React from 'react'
 const Blog = () => {
   return (
     <div className="w-screen p-10 h-screen flex items-center mt-10 justify-center">
-      <div className="text-center w-1/2 h-screen text-wrap">
+      <h1 className="text-blue-600 font-semibold text-2xl my-3 text-center">
+        Welcome to our Book Blog!
+      </h1>
+      {/* <div className="text-center w-1/2 h-screen text-wrap">
         <h1 className="text-blue-600 font-semibold text-2xl my-3 text-center">
           Welcome to our Book Blog!
         </h1>
@@ -39,7 +42,7 @@ const Blog = () => {
           alt=""
           className="rounded-md w-screen h-screen"
         />
-      </div>
+      </div> */}
     </div>
   )
 }
