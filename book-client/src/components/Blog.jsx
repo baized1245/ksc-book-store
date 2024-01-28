@@ -2,11 +2,11 @@ import React from 'react'
 
 const Blog = () => {
   return (
-    <div className="flex items-center justify-center p-10 w-screen h-screen">
-      <h1 className="text-blue-600 font-semibold text-2xl my-3">
+    <div className="text-center p-10 w-screen h-screen">
+      <h1 className="text-blue-600 font-semibold text-2xl my-3 text-center">
         Welcome to our Book Blog!
       </h1>
-      <p className="font-medium text-base my-2">
+      <p className="font-medium text-base my-2 text-center text-wrap">
         Here at KSC Book Store, we're not just passionate about reading books;
         we're also avid writers and thinkers who love to share our thoughts and
         insights about literature, writing, and everything in between. Our blog

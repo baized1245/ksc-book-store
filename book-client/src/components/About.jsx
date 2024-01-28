@@ -2,11 +2,11 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className="flex items-center justify-center p-10 w-screen h-screen">
-      <h2 className="text-blue-600 font-semibold text-2xl my-3">
+    <div className="text-center p-10 w-screen h-screen">
+      <h2 className="text-blue-600 font-semibold text-2xl my-3 text-center">
         KSC Book Store
       </h2>
-      <p className="font-medium text-base my-2">
+      <p className="font-medium text-base my-2 text-center">
         Welcome to our book community! Our mission is to provide a platform
         where book enthusiasts can connect, share, and explore the vast world of
         literature. Whether you're an avid reader, a passionate writer, or
