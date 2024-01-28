@@ -2,7 +2,7 @@ import React from 'react'
 
 const Blog = () => {
   return (
-    <div className="text-center p-10 w-screen h-screen">
+    <div className="text-center p-10 h-screen w-1/2 items-center text-wrap mt-10 justify-center">
       <h1 className="text-blue-600 font-semibold text-2xl my-3 text-center">
         Welcome to our Book Blog!
       </h1>

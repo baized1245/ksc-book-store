@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className="text-center p-10 w-screen h-screen">
+    <div className="text-center p-10 w-1/2 h-screen items-center text-wrap mt-10 justify-center">
       <h2 className="text-blue-600 font-semibold text-2xl my-3 text-center">
         KSC Book Store
       </h2>
